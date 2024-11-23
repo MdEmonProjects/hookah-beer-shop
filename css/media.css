@@ -1,0 +1,357 @@
+
+@media (max-width: 991.98px) {  }
+
+@media(min-width: 576px) and (max-width: 767.98px) { 
+/* banner part start */
+.home_banner_txt h4 {
+	font-size: 24px;
+}
+.home_banner_txt h3 {
+	font-size: 36px;
+	padding-top: 22px;
+    padding-bottom: 15px;
+}
+.home_banner_txt p {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	color: #fff;
+}
+#home_banner {
+	padding-top: 115px;
+	padding-bottom: 100px;
+}
+/* banner part End */
+
+/* story part start */
+#home_story {
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+.pop_video_image .mog_image {
+    position: relative;
+}
+.story_txt h3 {
+	font-size: 28px;
+}
+.story_txt p {
+	font-size: 12px;
+	line-height: 24px;
+	padding-bottom: 30px;
+}
+.story_txt a {
+	padding: 12px 12px;
+	font-size: 16px;
+}
+/* story part End */
+
+/* happy hour start */
+#heappy_hour {
+	padding-bottom: 80px;
+	padding-top: 30px;
+}
+.moder_image {
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateX(50%);
+    display: none;
+}
+.happy_header_txt h3 {
+	font-size: 24px;
+	padding-bottom: 15px;
+    display: inline-block;
+}
+.happy_header_txt h3::before {
+	content: '';
+	left: 40px;
+}
+.happy_header_txt h3::after {
+	content: '';
+	left: 50px;
+}
+.happy_header_txt h3 span::before {
+	content: '';
+	bottom: -12px;
+	left: -17px;
+}
+/* time counter part start */
+.happy_hour_gap {
+	padding-top: 30px;
+}
+.limeted_time_card .timer_style {
+	font-size: 28px;
+}
+.limeted_time_card .text p {
+	font-size: 12px;
+}
+.limeted_time{
+    display: flex;
+    justify-content: space-around;
+}
+.limeted_time_card {
+	height: 90px;
+	width: 90px;
+	border: 1px solid #fff;
+}
+.heappy_hour_txt {
+    padding-top: 0px;
+    padding-left: 0;
+    text-align: center;
+}
+.heappy_hour_txt h3 {
+    font-size: 20px;
+}
+/* happy hour text part start */
+
+/* happy hour text part End */
+.happy_hour_schedule {
+    padding-left: 0px;
+    padding-top: 30px;
+}
+.happy_hour_schedule::before {
+    content: '';
+    background: #585757;
+    height: 1px;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.happy_hour_schedule_text_style {
+    font-size: 18px;
+}
+.happy_hour_schedule span {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.heappy_hour_txt {
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: center;
+}
+.happy_hour_schedule h3 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.happy_hour_schedule h4 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.happy_hour_schedule h5 {
+    padding-top: 10px;
+}
+/* time counter part End */
+
+/* happy hour End */
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .home_banner_txt h4 {
+        font-size: 20px;
+    }
+    .home_banner_txt h3 {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .home_banner_txt p {
+        font-size: 15px;
+    }
+    #home_banner {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .pop_video_image .mog_image {
+        position: relative;
+        /* top: -160px; */
+    }
+    .story_txt p {
+        padding-bottom: 31px;
+    }
+    .explore_btn {
+        text-align: center;
+    }
+    .story_txt h3 {
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        font-size: 30px;
+        color: #fff;
+        padding-bottom: 13px;
+        position: relative;
+    }
+    #heappy_hour {
+        padding-bottom: 80px;
+        padding-top: 30px;
+    }
+    .moder_image {
+        position: absolute;
+        top: 0px;
+        right: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translateX(50%);
+        display: none;
+    }
+    .happy_header_txt h3 {
+        font-size: 30px;
+        display: inline-block;
+    }
+    .happy_header_txt h3::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+}
+.happy_header_txt h3::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50px;
+
+	transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+}
+.happy_header_txt h3 span::before {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: -30px;
+}
+.happy_hour_gap {
+	padding-top: 20px;
+}
+    .heappy_hour_txt h3 {
+        font-size: 20px;
+    }
+
+    .limeted_time_card {
+        height: 100px;
+        width: 100px;
+    }
+    .limeted_time .top{
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .limeted_time .bottom{
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .limeted_time_card .timer_style {
+        font-size: 30px;
+    }
+    .happy_hour_schedule {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .happy_hour_schedule::before {
+        content: '';
+        background: #585757;
+        height: 1px;
+        width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+   
+    }
+    .happy_hour_schedule_text_style {
+        font-size: 18px;
+    }
+    .happy_hour_schedule span {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .heappy_hour_txt {
+        padding-top: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .happy_hour_schedule h3 {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .happy_hour_schedule h4 {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .happy_hour_schedule h5 {
+        padding-top: 10px;
+    }
+    .message {
+        height: 100px;
+    }
+
+    .form_image {
+        display: none;
+    }
+    .reservation_form .form{
+        background: url(../images/Home_Page_form_img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .form-group .form-control {
+        border-color: #585858;
+        color: #fff;
+    }
+    .form-group ::placeholder{
+        color: #fff !important;
+    }
+    #footer {
+        padding-top: 50px;
+    }
+    .footer_text{
+        text-align: center;
+    }
+    .footer_text h3 {
+        font-size: 24px;
+    }
+    .footer_text h5 {
+        width: 100%;
+    }
+    .footer_text p {
+        padding-bottom: 30px;
+    }
+    .footer_item_one_text_style {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+    }
+    .social_icons::before {
+        content: '';
+        display: none;
+    }
+    .social_icons::after {
+        content: '';
+        display: none;
+    }
+    .social_icons .icon {
+        height: 45px;
+        width: 45px;  
+    }
+    .social_icons i {
+        line-height: 45px;
+    }
+ }

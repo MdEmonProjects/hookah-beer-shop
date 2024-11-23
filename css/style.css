@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.9;
+    color: antiquewhite;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    background: url(../images/story_banner_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* 
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+/* all common css End */
+/* .navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    padding: 0;
+    margin-left: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
+    line-height: 74px;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: #fff;
+    color: #ed5034;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ed5034;
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+    opacity: 1;
+    visibility: visible;
+} */
+
+.navbar {
+	padding: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    margin-left: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    line-height: 74px;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: #fff;
+    color: #ed5034;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ed5034;
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+/* nav part End */
+
+/* home_banner start */
+#home_banner{
+    background: url(../images/Home_page_banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 99;
+    padding-top: 230px;
+    padding-bottom: 280px;
+}
+.home_banner_txt h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    color: #fff;
+}
+.home_banner_txt h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 72px;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 62px;
+}
+
+.home_banner_txt p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    color: #fff;
+}
+
+/* home_banner End */
+
+
+
+
+/* index page ar story part */
+#home_story{
+    background: url(../images/story_banner_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 97px;
+
+}
+.story_txt a{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+
+}
+
+/* .story_txt{
+    padding-top: 168px;
+} */
+.story_txt h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 13px;
+    position: relative;
+}
+.story_txt h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: #ed5034;
+}
+.story_txt h3::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 105px;
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+}
+.story_txt p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+    padding-top: 14px;
+    padding-bottom: 62px;
+}
+.story_txt p span{
+    display: inline-block;
+    padding-top: 14px;
+}
+.mog_image img{
+    width: 100% !important;
+}
+.pop_video_image .mog_image {
+	position: absolute;
+	top: -160px;
+}
+.story_txt a{
+    background: url(../images/mog_btn_bg.png);
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ed5034;
+    border: 1px solid #313335;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    z-index: 9999999;
+}
+/* =================================== heappy hour start=========================  */
+#heappy_hour{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 100px; */
+    z-index: 999;
+    position: relative;
+    padding-bottom: 160px;
+    padding-top: 60px;
+}
+
+.moder_image {
+	position: absolute;
+	top: -180px;
+	right: 0;
+}
+.happy_header_txt h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 25px;
+    position: relative;
+}
+.happy_header_txt h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 50px;
+    background: #ed5034;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+.happy_header_txt h3::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 50px;
+    background: #ed5034;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+.happy_header_txt h3 span{
+    position: relative;
+}
+.happy_header_txt h3 span::before {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: 0px;
+	height: 3px;
+	width: 10px;
+	background: #ed5034;
+}
+.happy_hour_gap{
+    padding-top: 60px;
+}
+.limeted_time_card {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	background: url(../images/home_page_section-3_item_bg.png);
+	background-position: 0px 58px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #1b1b1b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.limeted_time .top{
+    display: flex;
+    margin-bottom: 20px;
+}
+.limeted_time .bottom{
+    display: flex;
+}
+.limeted_time_card{
+    margin-right: 20px;
+}
+.limeted_time_card .timer_style{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #fff;
+}
+
+.limeted_time_card .text p{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+.heappy_hour_txt{
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.heappy_hour_txt h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}
+.happy_hour_schedule{
+    padding-left: 82px;
+    position: relative;
+}
+
+.happy_hour_schedule::before{
+    content: '';
+    height: 300px;
+    width: 1px;
+    background: #252525;
+    position: absolute;
+    left: 0;
+
+}
+
+.happy_hour_schedule span{
+    display: block;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.happy_hour_schedule h3{
+    padding-bottom: 30px;
+    position: relative;
+}
+.happy_hour_schedule h3::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ed5034;
+}
+.happy_hour_schedule h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+}
+.happy_hour_schedule h4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.happy_hour_schedule h4::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ed5034;
+}
+.happy_hour_schedule h4::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+}
+.happy_hour_schedule h5{
+    padding-top: 30px;
+}
+.happy_hour_schedule_text_style{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+}
+/* =================================== heappy hour End=========================  */
+
+/* ========================== form part start====================== */
+.form_image {
+    position: absolute;
+    right: -40px;
+}
+.form_header_txt h3{
+    padding-bottom: 20px;
+}
+.form-group input{
+    background: transparent;
+    height: 48px;
+    border-color: #252525;
+
+}
+
+.form-group .form-control{
+    background: transparent;
+    border-color: #252525;
+    height: 48px;
+}
+select.form-control:not([size]):not([multiple]) {
+	height: calc(2.25rem + 2px);
+	height: 48px;
+}
+.message{
+    height: 200px;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #252525;
+}
+
+/* ========================== form part END====================== */
+
+/* ======================== testimonial part start========================== */
+#testimonial{
+    background: #000;
+    z-index: 999;
+}
+/* .testimonial_header_text{
+    position: relative;
+} */
+.happy_header_txt h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 25px;
+    position: relative;
+}
+.testimonial_header_text h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 50px;
+    background: #ed5034;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+.testimonial_header_text h3::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 50px;
+    background: #ed5034;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+.testimonial_header_text h3 span{
+    position: relative;
+}
+.testimonial_header_text h3 span::before {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: 0px;
+	height: 3px;
+	width: 10px;
+	background: #ed5034;
+}
+/* ======================== testimonial part End========================== */
+
+/*================== footer part start=============== */
+#footer{
+    padding-top: 103px;
+}
+.footer_text h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 15px;
+    position: relative;
+}
+.footer_text h3::after{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #ed5034;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer_item_one_text_style{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+.footer_text h4{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.footer_text h5{
+    width: 370px;
+    padding-bottom: 15px;
+}
+.footer_text p{
+    padding-bottom: 60px;
+}
+/* social icon start */
+/* .social_icons{
+    display: flex;
+} */
+.social_icons::after{
+    content: '';
+    width: 385px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #fff;
+
+}
+.social_icons::before{
+    content: '';
+    width: 385px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: #fff;
+
+}
+.social_icons .icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social_icons .icon:hover{
+    background: #ed5034;
+}
+.social_icons .icon:hover i{
+    color: #fff;
+}
+.social_icons i{
+    color: #ed5034;
+    font-size: 20px;
+    line-height: 70px;
+
+}
+/* social icon End */
+.last_txt p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*================== footer part End=============== */
+
+
+
+
+/*=============================== multiple page start here=============================== */
+#story_page_counter{
+    background: #000;
+}
+.counter_container{
+    background: url(../images/annie-spratt-_YyrVY9-ECo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 72px;
+    padding-bottom: 63px;
+}
+.our_story_counter h3{
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+}
+.our_story_counter p{
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+/*======================= gallery page start================================ */
+#gallery{
+    background:#010101;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gal_imgs{
+
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px; */
+    position: relative;
+    margin: 15px 15px ;
+
+}
+
+.gal_pic{
+
+	flex-wrap:nowrap;
+
+}
+.blog_item_overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(17, 17, 17,.50);
+    visibility: visible;
+    opacity:1;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.gallery_item:hover .blog_item_overly{
+    visibility: none;
+    opacity:0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+} 
+.gallery_item .shape .down {
+    visibility: none;
+    opacity:0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+} 
+
+.gallery_item:hover .shape .down {
+    visibility:visible;
+    opacity:1;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+} 
+.shape{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.shape .down{
+
+    height: 50px;
+    width: 50px;
+    background:rgb(0, 0, 12,.80);
+    cursor: pointer;
+
+
+}
+.down{
+ color: #fff;
+ text-align: center;
+ line-height: 50px;
+ 
+}
+
+.popup a img{
+    
+   
+    height: 20px;
+    width: 20px;
+
+}
+
+/* gallery page end */
